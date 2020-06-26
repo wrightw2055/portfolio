@@ -8,17 +8,17 @@ let email = document.getElementById('email');
 let resume = document.getElementById('resume');
 
 iconBox.addEventListener('mouseover', () => {
-	linkedin.setAttribute('src', 'images/icons/001-linkedin.png');
+	linkedin.setAttribute('src', 'images/linkedin.png');
 	github.setAttribute('src', 'images/icons/github.png');
-	generalAssembly.setAttribute('src', 'images/icons/ga-logo.png');
+	// generalAssembly.setAttribute('src', 'images/icons/ga-logo.png');
 	email.setAttribute('src', '');
 	resume.setAttribute('src', 'images/icons/004-profile.png');
 });
 
 iconBox.addEventListener('mouseout', () => {
-	linkedin.setAttribute('src', 'images/icons/045-linkedin.png');
-	github.setAttribute('src', 'images/icons/038-github.png');
-	generalAssembly.setAttribute('src', 'images/icons/ga-logo-bw.png');
-    email.setAttribute('src', 'images/inbox photo.jpg');
+	linkedin.setAttribute('src', 'images/linkedin.png');
+	github.setAttribute('src', '/images/github.png');
+	generalAssembly.setAttribute('src', '');
+	email.setAttribute('src', 'images/inbox photo.jpg');
 	resume.setAttribute('src', 'images/icons/005-profile-1.png');
 });
